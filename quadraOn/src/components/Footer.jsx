@@ -1,4 +1,4 @@
-import { Container, Address, Paragraph } from "./Footer.styles"
+import { Container, Address, Paragraph } from "./Footer.styles.jsx"
 
 const Footer = () => {
   return (
