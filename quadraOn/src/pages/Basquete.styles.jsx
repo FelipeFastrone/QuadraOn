@@ -5,6 +5,12 @@ export const Container = styled.div`
    height: 80vh;
    margin-top: 4.3em;
    color: #fff;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 32px
 `;
 
 export const Img = styled.img`
