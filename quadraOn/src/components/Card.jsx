@@ -9,7 +9,7 @@ const Card = ({title, span, img, more, link}) => {
     <Title>{title}</Title>
     <Img src={img}></Img>
     <Span>{span}</Span>
-    <Link to={link}>
+    <Link to={link} style={{"text-decoration":"none"}}>
     <Ancora>{more}</Ancora>
     </Link>
     </Container>

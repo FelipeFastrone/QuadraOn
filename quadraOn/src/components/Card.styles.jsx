@@ -15,6 +15,12 @@ export const Container = styled.div`
 
   border-radius: 5px;
   box-shadow: 6px 6px 6px 0px #775;
+  text-decoration: none;
+
+   @media (min-width: 1200px) {
+    width: 70vw;
+    height: 100vh;
+  } 
 `;
 
 export const Span = styled.span`
@@ -28,8 +34,16 @@ export const Img = styled.img`
   width: 70vw;
   height: 40%;
   margin: 20px;
+   @media (min-width: 1200px) {
+    width:  50vw;
+    height: 60vh;
+  } 
 `;
 
-export const Ancora = styled.a`
+export const Ancora = styled.button`
   padding-top: 20px;
+  color: #008000;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
 `;

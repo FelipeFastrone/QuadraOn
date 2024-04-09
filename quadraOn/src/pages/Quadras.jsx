@@ -13,7 +13,7 @@ const Quadras = () => {
     <Title>Quadras</Title>
     <Card
       img={campo}
-      title={"Jogue junto campo"}
+      title={"Jogue junto society"}
       span={"Venha conhecer nosso campo"}
       more={"ver mais"}
       link={"/Campo"}
@@ -29,7 +29,7 @@ const Quadras = () => {
     />
     <Card
       img={basquete}
-      title={"Basquete pra todos"}
+      title={"Basquete para todos"}
       span={"Agende seu horário em nossas quadras"}
       more={"ver mais"}
       link={"/Basquete"}

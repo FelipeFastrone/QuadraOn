@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from "../pages/Home";
 import Quadras from "../pages/Quadras";
-import Sobre from "../pages/Sobre";
+// import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 
 import Campo from "../pages/Campo";
@@ -30,10 +30,10 @@ const Main = () => {
          path='/Contato'
          element={<Contato/>}>
        </Route>
-       <Route
+       {/* <Route
          path='/Sobre'
          element={<Sobre/>}>
-       </Route>
+       </Route> */}
        <Route
          path='/Campo'
          element={<Campo/>}>

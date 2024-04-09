@@ -27,6 +27,9 @@ export const Hamburguer = styled.div`
   background-color: green;
   font-size: 1.4em;
   margin: 0.6em;
+  @media (min-width: 1200px) {
+    display:none;
+  }
 `;
 export const List = styled.ul`
   width: 100vw;
@@ -41,4 +44,31 @@ export const List = styled.ul`
   text-align: justify;
   list-style: none;
 
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: end;
+    margin-top: -58px;
+    margin-right: -260px;
+    gap: 3em;
+    font-size: 1.2em;
+  }
+  
+   
 `;
+export const ListIcons = styled.ul`
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1.2em;
+  list-style: none;
+  list-style: none;
+  color: white;
+  margin-top: 40%;
+`;
+
+
+
+
