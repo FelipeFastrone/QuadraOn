@@ -3,7 +3,7 @@ import tenis from "../assets/tenis.jpg"
 import basquete from "../assets/basquete.jpg"
 
 
-import Card from "../components/Card"
+import Card from "../components/layout/Card"
 import { Container, Title } from "./Quadras.styles"
 
 

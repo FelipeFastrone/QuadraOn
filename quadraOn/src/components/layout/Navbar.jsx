@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link style={{"text-decoration":"none","color": "#eee"}} onClick={toggleMenu} to="/">Home</Link>
           <Link style={{"text-decoration":"none","color": "#eee"}} onClick={toggleMenu} to="/Quadras">Quadras</Link>
           <a style={{"text-decoration":"none","color": "#eee"}} onClick={toggleMenu} href="#contact">Contato</a>
-          {/* <Link style={{"text-decoration":"none","color": "#eee"}} onClick={toggleMenu} to="/Sobre">Sobre</Link> */}
+          <Link style={{"text-decoration":"none","color": "#eee"}} onClick={toggleMenu} to="/Cadastro">Cadastro</Link>
           
         <ListIcons>
           <FaFacebook></FaFacebook>
