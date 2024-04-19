@@ -9,13 +9,14 @@ export const Wrapper = styled.div`
   gap: 14em;
   align-items: center;
   position: fixed;
+  z-index: 3;
+
 
 `;
 export const Menu = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 999;
   transition: transform 0.3s ease-in-out;
 `;
 export const Logo = styled.h1`

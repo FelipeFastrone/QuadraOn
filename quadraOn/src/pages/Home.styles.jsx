@@ -9,13 +9,6 @@ export const Container = styled.div`
     font-size: 18px;
   }
 
-  @media (min-width: 992px) {
-    
-  }
-
-  @media (min-width: 1200px) {
-   
-  }
 `;
 
 export const Title = styled.h1`
