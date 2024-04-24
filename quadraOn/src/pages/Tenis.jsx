@@ -3,7 +3,7 @@ import { Title } from "./Home.styles";
 
 import img from "../assets/tenis.jpg";
 import {FaWhatsapp} from "react-icons/fa";
-import { Link } from "react-router-dom";
+import Selected from "../components/Payament/Selected";
 
 
 const Tenis = () => {
@@ -13,8 +13,7 @@ const Tenis = () => {
       <Img src={img} />
       <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quisquam provident enim odit cumque deleniti blanditiis sapiente, possimus asperiores itaque cum odio voluptas quis magnam nisi rerum dolorum numquam voluptatibus.</Text>
       <Btn href="https://wa.me/5519997254924">Agende seu horário<FaWhatsapp style={{margin: "0 0 0 1em"}}></FaWhatsapp></Btn>
-      <Link style={{"padding": "30px"}} to="/Pagamento">ir para pagamento</Link>
-      
+      <Selected/>
     </Container>
   );
 };

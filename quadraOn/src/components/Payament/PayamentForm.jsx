@@ -31,7 +31,7 @@ const PayamentForm = () => {
 
   return (
     <PayamentWrapper>
-        <Title>Informações de Pagamento</Title>
+      <Title>Informações de Pagamento</Title>
       <InputWrapper>
         <form onSubmit={handleSubmit}>
           <Placeholder active={isActive} htmlFor="cardNumber">
@@ -67,6 +67,7 @@ const PayamentForm = () => {
           </Placeholder>
 
           <Button type="submit">Pagar</Button>
+
         </form>
       </InputWrapper>
     </PayamentWrapper>

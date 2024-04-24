@@ -14,7 +14,7 @@ import Tenis from "../../pages/Tenis";
 
 
 import { Container } from "./Main.styles";
-import PayamentForm from '../Payament/PayamentForm';
+import Payament from '../Payament/Payament';
 
 const Main = () => {
   return (
@@ -56,7 +56,7 @@ const Main = () => {
        </Route>
        <Route
          path='/Pagamento'
-         element={<PayamentForm/>}>
+         element={<Payament/>}>
        </Route>
        
       </Routes>
