@@ -1,26 +1,25 @@
 import { Container, Img, Btn, Text } from "./Campo.styles";
 import { Title } from "./Home.styles";
 import img from "../assets/campo.jpg";
-import { FaWhatsapp } from "react-icons/fa";
-import Selected from "../components/Payament/Selected";
+// import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const Campo = () => {
   return (
     <Container>
-      <Title>Jogue junto society</Title>
+      <Title>Campo</Title>
       <Img src={img} />
-      <Text>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quisquam
-        provident enim odit cumque deleniti blanditiis sapiente, possimus
-        asperiores itaque cum odio voluptas quis magnam nisi rerum dolorum
-        numquam voluptatibus.
+      <Text> 
+      No coração de cada cidade, há um santuário onde a paixão se manifesta em cada grama verde. O campo de futebol, com suas linhas brancas como as páginas de um livro esperando para serem preenchidas com histórias emocionantes, é onde sonhos se transformam em realidade e onde as batalhas épicas do esporte são travadas. Sob o brilho do sol ou sob as luzes noturnas, as multidões se reúnem, ansiosas para testemunhar a magia que só o futebol pode oferecer.
+
+
       </Text>
-      <Btn href="https://wa.me/5519997254924">
-        Agende seu horário
-        <FaWhatsapp style={{ margin: "0 0 0 1em" }}></FaWhatsapp>
+      <Btn>
+      <a style={{ "text-decoration": "none", color: "#eee" }} href="/Face">
+     
+        Ver disponiveis
+        </a>
       </Btn>
-      <Selected />
     </Container>
   );
 };

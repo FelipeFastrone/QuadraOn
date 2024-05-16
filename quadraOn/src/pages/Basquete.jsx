@@ -1,22 +1,28 @@
-import { Container, Img, Btn, Text } from "./Basquete.styles"
-import { Title } from "./Home.styles"
-import img from "../assets/basquete.jpg"
-
-import {FaWhatsapp} from "react-icons/fa";
-import Selected from "../components/Payament/Selected";
+import { Container, Img, Btn, Text } from "./Basquete.styles";
+import { Title } from "./Home.styles";
+import img from "../assets/basquete.jpg";
 
 
 const Basquete = () => {
   return (
     <Container>
-        <Title>Basquete para todos</Title>
-        
-        <Img src={img} alt=""/>
-        <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quisquam provident enim odit cumque deleniti blanditiis sapiente, possimus asperiores itaque cum odio voluptas quis magnam nisi rerum dolorum numquam voluptatibus.</Text>
-        <Btn href="https://wa.me/5519997254924">Agende seu horário<FaWhatsapp style={{margin: "0 0 0 1em"}}></FaWhatsapp></Btn>
-        <Selected/>
-    </Container>
-  )
-}
+      <Title>Basquete</Title>
 
-export default Basquete
+      <Img src={img} alt="" />
+      <Text>
+        O basquete transcende as linhas da quadra, é uma paixão que pulsa nos
+        corações dos seus admiradores. Cada movimento, cada cesta, é uma
+        expressão de habilidade e determinação. Nas quadras, os jogadores se
+        tornam artistas, driblando entre defesas, lançando-se no ar em busca da
+        cesta perfeita. E para os torcedores, cada partida é uma montanha-russa
+        de emoções, com momentos de êxtase e tensão que mantêm todos à beira de
+        seus assentos.
+      </Text>
+      <Btn href="#">
+        Ver disponiveis
+      </Btn>
+    </Container>
+  );
+};
+
+export default Basquete;

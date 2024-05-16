@@ -1,36 +1,20 @@
-import {useState} from 'react'
 
-import { SignupForm, InputField, SubmitButton, Title } from './Signup.styles';
+import { SubmitButton, Title, Container } from './Signup.styles';
 
 // eslint-disable-next-line react/prop-types
-const Signup = ({handleSignup}) => {
-    const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+const Signup = () => {
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    handleSignup({ email, password });
-  };
+  
   return (
     <div>
          <Title>Cadastro</Title>
-      <SignupForm onSubmit={handleSubmit}>
-        <InputField
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-          required
-        />
-        <InputField
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-          required
-        />
-        <SubmitButton type="submit">Cadastrar</SubmitButton>
-      </SignupForm>
+         <Container>
+
+        <SubmitButton type="submit">
+        <a style={{ "text-decoration": "none", color: "#eee" }} href="/FormCadastro">
+      
+        Signup</a></SubmitButton>
+         </Container>
     </div>
   )
 }

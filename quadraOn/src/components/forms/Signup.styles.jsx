@@ -9,19 +9,14 @@ export const Title = styled.h1`
   
 `;
 
-export const SignupForm = styled.form`
+export const Container = styled.form`
   display: flex;
   flex-direction: column;
   width: 300px;
   margin: 0 auto;
 `;
 
-export const InputField = styled.input`
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-`;
+
 
 export const SubmitButton = styled.button`
   padding: 10px;

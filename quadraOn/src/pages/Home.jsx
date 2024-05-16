@@ -27,17 +27,21 @@ const Home = () => {
       <Img src={imgTenis}></Img>
       <Button>
         <a style={{ "text-decoration": "none", color: "#eee" }} href="/Quadras">
-          Quadras perto de mim
+          Ver tipo de quadras
         </a>
       </Button>
       <Img src={imgFut}></Img>
       <Paragraph>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cum labore ea recusandae quis reprehenderit corrupti optio magnam tenetur, assumenda dolor accusantium voluptas deleniti tempore, perferendis dolorem modi. Libero, voluptate!
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut vitae mollitia dolorum consectetur quam, recusandae quod reiciendis obcaecati. Ipsam error asperiores repellat dolorem. Aspernatur, animi iste omnis soluta debitis fuga!
+         A paixão pelo esporte é mais do que apenas uma atividade física; é uma
+        forma de vida, uma fonte de inspiração e uma expressão de identidade.
+        Ela nos ensina a sonhar alto, a perseverar diante dos desafios e a
+        celebrar as conquistas, grandes ou pequenas. É essa paixão que nos
+        impulsiona a superar nossos limites, a nos conectar com os outros e a
+        encontrar significado em cada jogo, em cada momento compartilhado.
       </Paragraph>
       <Button>
         <a style={{ "text-decoration": "none", color: "#eee" }} href="/Quadras">
-          Quadras perto de mim
+        Ver tipo de quadras
         </a>
       </Button>
     </Container>

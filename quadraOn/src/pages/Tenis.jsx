@@ -2,18 +2,21 @@ import { Container, Img, Btn, Text } from "./Tenis.styles";
 import { Title } from "./Home.styles";
 
 import img from "../assets/tenis.jpg";
-import {FaWhatsapp} from "react-icons/fa";
-import Selected from "../components/Payament/Selected";
-
 
 const Tenis = () => {
   return (
     <Container>
-      <Title>Mike quadra de tênis</Title>
+      <Title>Tênis</Title>
       <Img src={img} />
-      <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quisquam provident enim odit cumque deleniti blanditiis sapiente, possimus asperiores itaque cum odio voluptas quis magnam nisi rerum dolorum numquam voluptatibus.</Text>
-      <Btn href="https://wa.me/5519997254924">Agende seu horário<FaWhatsapp style={{margin: "0 0 0 1em"}}></FaWhatsapp></Btn>
-      <Selected/>
+      <Text>
+        No mundo do tênis, a paixão é palpável em cada saque, em cada troca de
+        bola. É um esporte que combina graça e poder, habilidade e estratégia,
+        em uma dança frenética sobre a quadra. Para os jogadores, o tênis é mais
+        do que apenas um jogo - é uma obsessão, uma busca incessante pela
+        excelência em cada golpe. Cada raquete é uma extensão de si mesmos, e
+        cada ponto conquistado é uma vitória pessoal.
+      </Text>
+      <Btn href="#">Ver disponiveis</Btn>
     </Container>
   );
 };

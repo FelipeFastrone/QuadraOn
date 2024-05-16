@@ -52,10 +52,7 @@ export const Btn = styled.button`
   }
 `;
 
-export const SelectContainer = styled.div`
-  display: flex;
-  margin-bottom: 20px;
-`;
+
 
 export const PaymentButton = styled.button`
   padding: 10px 20px;

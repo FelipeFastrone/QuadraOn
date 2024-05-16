@@ -15,6 +15,8 @@ import Tenis from "../../pages/Tenis";
 
 import { Container } from "./Main.styles";
 import Payament from '../Payament/Payament';
+import FormCadastro from '../../pages/FormCadastro';
+import Face from "../../pages/Face";
 
 const Main = () => {
   return (
@@ -54,9 +56,17 @@ const Main = () => {
          path='/Basquete'
          element={<Basquete/>}>
        </Route>
+              <Route
+         path='/FormCadastro'
+         element={<FormCadastro/>}>
+       </Route>
        <Route
-         path='/Pagamento'
+         path='/Payament'
          element={<Payament/>}>
+       </Route>
+       <Route
+         path='/Face'
+         element={<Face/>}>
        </Route>
        
       </Routes>

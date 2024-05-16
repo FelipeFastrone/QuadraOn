@@ -20,22 +20,7 @@ const Selected = () => {
   const handleDelete = () => {
     setSelectedOption("");
   };
-  //   const qrData =() => {
-  //   `chave=${pixKey}&valor=${selectedOption}`;
-  // }
-  // setQRCodeData(qrData);
-
-  // console.log('Realizando pagamento PIX...');
-  // Aqui você pode adicionar a lógica para processar o pagamento PIX
-  // console.log('Valor:', selectedOption);
-  // Adicione aqui a lógica para enviar os dados para seu backend ou sistema de pagamento
-
-  // const handlePayment = () => {
-  //   // Aqui você pode usar o valor selecionado
-  //   console.log("Opção selecionada:", selectedOption);
-  //   // Adicione aqui a lógica para processar o pagamento com base na opção selecionada
-  // };
-
+  
   return (
     <Container>
       <SelectContainer>

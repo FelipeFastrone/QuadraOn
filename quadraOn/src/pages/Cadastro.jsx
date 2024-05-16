@@ -9,13 +9,11 @@ const Cadastro = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = (userData) => {
-    // Implementar lógica de autenticação aqui (por exemplo, com uma API)
     console.log("Login", userData);
     setIsLoggedIn(true);
   };
 
   const handleSignup = (userData) => {
-    // Implementar lógica de cadastro aqui (por exemplo, com uma API)
     console.log("Signup", userData);
     setIsLoggedIn(true);
   };
