@@ -32,9 +32,10 @@ export const Hamburguer = styled.div`
     display:none;
   }
 `;
+
 export const List = styled.ul`
   width: 100vw;
-  height: 65vh;
+  height: 35vh;
   padding: 3em 8em 5em 6em;
   display: ${({ openMenu }) => (openMenu ? "flex" : "none")};
   background-color: green;

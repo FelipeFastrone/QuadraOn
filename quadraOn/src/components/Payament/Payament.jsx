@@ -1,9 +1,9 @@
 import Selected from "./Selected";
-import {Container} from "./Payament.styles"
+import {Container, Title} from "./Payament.styles"
 const Payament = () => {
   return (
     <Container>
-      
+      <Title>Pagamento</Title>
     <Selected/>
     </Container>
 
