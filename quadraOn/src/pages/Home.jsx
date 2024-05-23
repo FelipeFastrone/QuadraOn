@@ -15,14 +15,12 @@ const Home = () => {
     <Container>
       <Title>QuadraOn</Title>
       <Subtitle>
-        O lugar certo para você nao ficar sem praticar seu esporte!
+        O lugar certo para você não ficar sem praticar seu esporte!
       </Subtitle>
       <Img src={imgFute}></Img>
 
       <Paragraph>
-        Busque pelo local mais proximo a você, seja qual for o esporte, quadra,
-        campo temos diversas opções de locais e esportes, jogue com amigos ou
-        faça novas amizades buscando por encaixes
+      Busque pelo local mais próximo a você, seja qual for o esporte, quadra, campo temos diversas opções de locais e esportes, jogue com amigos ou faça novas amizades buscando por encaixes.
       </Paragraph>
       <Img src={imgTenis}></Img>
       <Button>

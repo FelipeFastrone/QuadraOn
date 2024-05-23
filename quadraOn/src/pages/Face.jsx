@@ -15,7 +15,7 @@ const Profile = () => {
       <Title>Soccer Styles</Title>
       <ProfileImage src={img} alt="Foto do Estabelecimento" />
       <InfoContainer>
-        <Label>Horários de Disponiveis:</Label>
+        <Label>Horários disponíveis:</Label>
         <Info>10:00</Info>
         <Info>17:00</Info>
         <Info>20:00</Info>
