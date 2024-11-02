@@ -17,7 +17,7 @@ const Campo = () => {
       <Btn>
       <a style={{ "text-decoration": "none", color: "#eee" }} href="/Face">
      
-        Ver disponiveis
+        Ver disponíveis
         </a>
       </Btn>
     </Container>

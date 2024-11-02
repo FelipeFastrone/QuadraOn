@@ -16,7 +16,7 @@ const Tenis = () => {
         excelência em cada golpe. Cada raquete é uma extensão de si mesmos, e
         cada ponto conquistado é uma vitória pessoal.
       </Text>
-      <Btn href="#">Ver disponiveis</Btn>
+      <Btn href="#">Ver disponíveis</Btn>
     </Container>
   );
 };

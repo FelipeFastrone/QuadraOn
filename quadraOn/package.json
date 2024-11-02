@@ -7,7 +7,10 @@
     "dev": "vite --host",
     "build": "vite build dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
+
+
   },
   "dependencies": {
     "@google-pay/button-react": "^3.1.0",
@@ -23,6 +26,8 @@
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",

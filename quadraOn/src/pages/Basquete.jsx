@@ -19,7 +19,7 @@ const Basquete = () => {
         seus assentos.
       </Text>
       <Btn href="#">
-        Ver disponiveis
+        Ver disponíveis
       </Btn>
     </Container>
   );
