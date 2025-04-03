@@ -9,13 +9,12 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest"
-
-
   },
   "dependencies": {
     "@google-pay/button-react": "^3.1.0",
-    "@stripe/react-stripe-js": "^2.7.0",
-    "@stripe/stripe-js": "^3.3.0",
+    "@stripe/react-stripe-js": "^2.9.0",
+    "@stripe/stripe-js": "^3.5.0",
+    "axios": "^1.8.4",
     "dotenv": "^16.4.5",
     "mercadopago": "^2.0.9",
     "qrcode.react": "^3.1.0",

@@ -5,8 +5,9 @@ import {
   Placeholder,
   Input,
   Title,
-  Button,
+  BoxButton,
 } from "./PayamentForm.styles";
+import PayamentButton from "./PayamentButton";
 
 const PayamentForm = () => {
   const [cardNumber, setCardNumber] = useState("");
@@ -66,7 +67,11 @@ const PayamentForm = () => {
             CVV
           </Placeholder>
 
-          <Button type="submit">Pagar</Button>
+<BoxButton>
+<PayamentButton />
+
+</BoxButton>
+          
 
         </form>
       </InputWrapper>

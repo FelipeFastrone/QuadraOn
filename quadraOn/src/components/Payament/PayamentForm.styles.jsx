@@ -51,7 +51,7 @@ export const Placeholder = styled.span`
   transition: all 0.3s ease;
 `;
 
-export const Button = styled.button`
+export const BoxButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
