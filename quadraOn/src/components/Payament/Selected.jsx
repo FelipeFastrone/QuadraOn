@@ -1,5 +1,7 @@
 import { useState } from "react";
-import PayamentForm from "./PayamentForm";
+// import PayamentForm from "./PayamentForm";
+import PayamentTest from "./PayamentTest";
+
 import QRCode from "qrcode.react";
 import {
     Container,
@@ -33,7 +35,7 @@ const Selected = () => {
         </select>
       </SelectContainer>
 
-      {selectedOption ? <PayamentForm /> : ""}
+      {selectedOption ? <PayamentTest /> : ""}
       {selectedOption ? (
         <Container>
           <h3>Pagamento por PIX</h3>
