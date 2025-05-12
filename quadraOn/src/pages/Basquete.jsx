@@ -21,6 +21,8 @@ const Basquete = () => {
       <Btn href="#">
         Ver disponíveis
       </Btn>
+
+    
     </Container>
   );
 };

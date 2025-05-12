@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 100vw;
-  height: 100vh;
-  margin: 100px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
+`;
+export const ContainerBox = styled.div`
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  margin: 200px 0 0 200px;
 `;
 export const Title = styled.h1`
    margin: 30px auto;

@@ -3,6 +3,7 @@ import tenis from "../assets/tenis.jpg"
 import basquete from "../assets/basquete.jpg"
 
 
+
 import Card from "../components/layout/Card"
 import { Container, Title } from "./Quadras.styles"
 
@@ -33,7 +34,9 @@ const Quadras = () => {
       span={"Agende seu horário em nossas quadras"}
       more={"ver mais"}
       link={"/Basquete"}
-    />
+    >
+
+      </Card>
     </Container>
   )
 }
